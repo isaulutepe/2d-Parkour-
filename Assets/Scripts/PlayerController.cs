@@ -152,4 +152,8 @@ public class PlayerController : MonoBehaviour
     {
         moveRotation = 0;
     }
+    public void Tiklendi()
+    {
+        Debug.Log("Butona Týklanndý");
+    }
 }

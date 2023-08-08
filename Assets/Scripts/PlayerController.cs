@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float waitTime; //Kamerayý bekleme süresi.
     [SerializeField] GameObject WaitTrigger; //Kameralarý bekleten trigger tetiklendikten sonra devre dýþý olmalý.
     float moveRotation;
-
+     public bool finishGame = false;
 
     private void Awake()
     {
@@ -91,6 +91,7 @@ public class PlayerController : MonoBehaviour
         }
         if (collision.gameObject.tag == "Finish") //Oyun bitti.
         {
+            finishGame= true;
             animator.SetFloat("speed", 0);
             rigidBody2D.velocity = Vector2.zero; //Karakteri sabitlemek için.
             GetComponent<PlayerController>().enabled = false;

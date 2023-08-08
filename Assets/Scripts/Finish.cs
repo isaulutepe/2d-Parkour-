@@ -11,12 +11,12 @@ public class Finish : MonoBehaviour
     private AudioSource source;
     private void Awake()
     {
-        source= GetComponent<AudioSource>();
+        source = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag=="Player")
+        if (collision.gameObject.tag == "Player")
         {
             source.Play();
             Debug.Log("Oyunn Bitti");

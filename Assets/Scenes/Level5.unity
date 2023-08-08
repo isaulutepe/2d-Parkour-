@@ -6307,7 +6307,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1656341811281976124, guid: 98ee4cb44278c3b49b0bdab7275678a2, type: 3}
   m_PrefabInstance: {fileID: 1706539294}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1706539295}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -8757,6 +8757,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98ee4cb44278c3b49b0bdab7275678a2, type: 3}
+--- !u!1 &1706539295 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1656341811281976122, guid: 98ee4cb44278c3b49b0bdab7275678a2, type: 3}
+  m_PrefabInstance: {fileID: 1706539294}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1719269228
 GameObject:
   m_ObjectHideFlags: 0
@@ -9803,7 +9808,7 @@ PrefabInstance:
     - target: {fileID: 1814988324, guid: d7598d1a94bbd2847b17c56efbec5fc6, type: 3}
       propertyPath: ScorePanel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1706539295}
     - target: {fileID: 1814988324, guid: d7598d1a94bbd2847b17c56efbec5fc6, type: 3}
       propertyPath: blackScreen
       value: 

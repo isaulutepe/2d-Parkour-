@@ -4315,6 +4315,7 @@ MonoBehaviour:
   _engelCollider2: {fileID: 0}
   waitTime: 7
   WaitTrigger: {fileID: 773726878}
+  finishGame: 0
 --- !u!50 &673487901
 Rigidbody2D:
   serializedVersion: 4
@@ -13689,7 +13690,7 @@ PrefabInstance:
     - target: {fileID: 1814988324, guid: d7598d1a94bbd2847b17c56efbec5fc6, type: 3}
       propertyPath: ScorePanel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1656341812037612043}
     - target: {fileID: 1814988324, guid: d7598d1a94bbd2847b17c56efbec5fc6, type: 3}
       propertyPath: blackScreen
       value: 
@@ -13878,6 +13879,10 @@ MonoBehaviour:
   Panel: {fileID: 1656341811680616894}
   activeScene:
     m_Handle: 0
+  lastScene:
+    m_Handle: 0
+  levelPanel: {fileID: 0}
+  aboutPanel: {fileID: 0}
 --- !u!1 &1174229411191460191
 GameObject:
   m_ObjectHideFlags: 0

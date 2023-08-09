@@ -9,7 +9,7 @@ public class SaveTheLevel : MonoBehaviour
 
     void Start()
     {
-       // PlayerPrefs.DeleteAll(); //kayýtlarý silme için , test amaçlý
+       
         // Oyun baþladýðýnda kaydedilen bölüm indexini PlayerPrefs'ten okuyoruz
         currentLevelIndex = PlayerPrefs.GetInt("SavedLevelIndex", 0);
     }

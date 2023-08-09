@@ -7,10 +7,11 @@ using UnityEngine.UI;
 public class LevelManager : MonoBehaviour
 {
     public Button[] levelButtons;
+    public Sprite activeLevelimage;
 
     public void Start()
     {
-       // PlayerPrefs.DeleteAll(); //kayýtlarý silme için , test amaçlý
+        //PlayerPrefs.DeleteAll(); //kayýtlarý silme için , test amaçlý
 
         foreach (var levelButton in levelButtons)
         {
@@ -24,6 +25,7 @@ public class LevelManager : MonoBehaviour
         for (int i = 1; i <= savedLevelIndex; i++)
         {
             levelButtons[i].enabled = true;
+            levelButtons[i].image.sprite = activeLevelimage;
         }
     }
 }
